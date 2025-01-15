@@ -15,13 +15,5 @@
             "src": "/socket.io/(.*)",
             "dest": "/server.js"
         }
-    ],
-    "env": {
-        "PORT": "4000",
-        "DB_HOST": "@db_host",
-        "DB_USER": "@db_user",
-        "DB_PASSWORD": "@db_password",
-        "DB_NAME": "@db_name",
-        "FRONTEND_URL": "@frontend_url"
-    }
+    ]
 }
